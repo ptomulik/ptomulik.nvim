@@ -1,5 +1,6 @@
--- custom/ptomulik.lua
---
-vim.o.mouse = 'r'
-vim.o.colorcolumn = '+1'
+-- custom/configs/init.lua
 
+require('custom.configs.vim')
+require('custom.configs.telescope')
+
+return {}
