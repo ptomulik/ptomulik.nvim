@@ -15,7 +15,7 @@ vim.opt.autoindent = true
 
 -- vim.opt.wrap = false
 
-vim.opt.mouse = 'ra'
+vim.opt.mouse = 'r'
 
 vim.opt.colorcolumn = '+1'
 vim.opt.formatoptions = 'tcqor'
