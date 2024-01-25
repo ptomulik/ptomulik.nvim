@@ -21,3 +21,7 @@ vim.opt.colorcolumn = '+1'
 vim.opt.formatoptions = 'tcqor'
 
 vim.opt.modeline = true
+
+-- Trailing whitespaces
+vim.cmd.hi('TrailingWhitespace ctermbg=red guibg=red')
+vim.cmd.match('TrailingWhitespace /\\s\\+$/')
