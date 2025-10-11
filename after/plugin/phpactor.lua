@@ -44,6 +44,5 @@ local on_attach = function(_, bufnr)
   end, { desc = 'Format current buffer with LSP' })
 end
 
-require('lspconfig').phpactor.setup({
-    on_attach = on_attach,
-})
+vim.lsp.config('phpactor', {})
+vim.lsp.enable({'phpactor'})

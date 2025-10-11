@@ -1,2 +1,1 @@
-require('lspconfig').twiggy_language_server.setup({
-})
+vim.lsp.config('twiggy_language_server', {})
