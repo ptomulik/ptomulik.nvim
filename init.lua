@@ -617,7 +617,7 @@ mason_lspconfig.setup {
   ensure_installed = vim.tbl_keys(servers),
   handlers = {
     function(server_name)
-      vim.lsp.config(serve_name, {
+      vim.lsp.config(server_name, {
         capabilities = capabilities,
         settings = servers[server_name],
         filetypes = (servers[server_name] or {}).filetypes,
